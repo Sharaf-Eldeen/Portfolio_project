@@ -1,22 +1,24 @@
 import "../Styles/Navigation.css";
 export default function Nav() {
   return (
-    <div class="container">
+    <div class="container" style={{ zIndex: 10 }}>
       <div class="navbar">
-        <h2>Sharaf</h2>
+        <h2>
+          <a href="#">Sharaf</a>
+        </h2>
         <nav>
           <ul>
             <li>
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
           </ul>
         </nav>
