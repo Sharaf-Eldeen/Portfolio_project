@@ -4,7 +4,7 @@ export default function Footer() {
   useScript("https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js");
 
   return (
-    <footer class="footer-wrapper">
+    <footer class="footer-wrapper" id="contact">
       <ul class="social-icons">
         <li class="social-icon__item">
           <a
